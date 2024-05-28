@@ -86,7 +86,7 @@ function playOnClick(event) {
     if (humanScore === 5) {
         resultsDiv.innerText += `\nYou won the game ${humanScore} to ${computerScore}.`
     } else if (computerScore === 5) {
-        resultsDiv.innerText += `You lost the game ${humanScore} to ${computerScore}.`
+        resultsDiv.innerText += `\nYou lost the game ${humanScore} to ${computerScore}.`
     } else {
         resultsDiv.innerText += `\nYour score: ${humanScore}\nCOM's score: ${computerScore}`
     }
